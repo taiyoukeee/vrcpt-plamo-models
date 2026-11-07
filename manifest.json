@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "release": "models-v1",
+  "base_url": "https://github.com/taiyoukeee/vrcpt-plamo-models/releases/download/models-v1/",
+  "license": "PLaMo Community License Agreement",
+  "attribution": "Built with PLaMo",
+  "models": [
+    {"bench": "0.8b_q4km", "file": "plamo-3-translate-0.8b-Q4_K_M.gguf", "bytes": 573123200,
+     "sha256": "923b2f28a9856de1b8b3b610a7e59ded0b14d007466fd5dd526e6a9ecaadafdd",
+     "parts": [{"asset": "plamo-3-translate-0.8b-Q4_K_M.gguf", "bytes": 573123200, "sha256": "923b2f28a9856de1b8b3b610a7e59ded0b14d007466fd5dd526e6a9ecaadafdd"}]},
+    {"bench": "0.8b_q8", "file": "plamo-3-translate-0.8b-Q8_0.gguf", "bytes": 948895808,
+     "sha256": "7797c44834adbfebdd3a1c85605e5655d96871f09fcfff009e9cd8b4e6723854",
+     "parts": [{"asset": "plamo-3-translate-0.8b-Q8_0.gguf", "bytes": 948895808, "sha256": "7797c44834adbfebdd3a1c85605e5655d96871f09fcfff009e9cd8b4e6723854"}]},
+    {"bench": "2b_q40", "file": "plamo-3-translate-2b-Q4_0.gguf", "bytes": 1698566560,
+     "sha256": "7a1839ed7f315b03176a7c7bb697629a95f8c3a61e669dfdf1cbeb6471551a66",
+     "parts": [{"asset": "plamo-3-translate-2b-Q4_0.gguf", "bytes": 1698566560, "sha256": "7a1839ed7f315b03176a7c7bb697629a95f8c3a61e669dfdf1cbeb6471551a66"}]},
+    {"bench": "2b_q4km", "file": "plamo-3-translate-2b-Q4_K_M.gguf", "bytes": 1807199392,
+     "sha256": "f36d0813dd95573a852ab5d76e374c543632d9e292929e922bcdbf7e53b494e0",
+     "parts": [{"asset": "plamo-3-translate-2b-Q4_K_M.gguf", "bytes": 1807199392, "sha256": "f36d0813dd95573a852ab5d76e374c543632d9e292929e922bcdbf7e53b494e0"}]},
+    {"bench": "2b_q8", "file": "plamo-3-translate-2b-Q8_0.gguf", "bytes": 3061858912,
+     "sha256": "2943b8b61683a3d86c03a2dc4221223b55928787d86836e9f1314a7f94af6002",
+     "parts": [
+       {"asset": "plamo-3-translate-2b-Q8_0.gguf.part0", "bytes": 1530929456, "sha256": "7f3a0bebbb17f826d568890a705a1e9cbaf4c8f529ec62026c96fab81aa96fee"},
+       {"asset": "plamo-3-translate-2b-Q8_0.gguf.part1", "bytes": 1530929456, "sha256": "7006587c8f10b99c64827e7184531cf3e85cb5d39ebbe2d3236439a8fc2cf02b"}
+     ]}
+  ]
+}
