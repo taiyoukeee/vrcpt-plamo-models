@@ -39,3 +39,15 @@ These models and their derivatives are provided under the **PLaMo Community Lice
 - By downloading or using these files, you agree to that license.
 - Commercial use requires prior registration with Preferred Networks and is limited by revenue. See Article 3 of the license.
 - This repository is not affiliated with or endorsed by Preferred Networks, Inc.
+
+## Speech recognition models (release `asr-v1`)
+
+The app also downloads per-language speech recognition models from the **`asr-v1`** release. They run on-device with [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) 1.13.8. The files are the official sherpa-onnx conversions, unchanged and only renamed with a model prefix. Korean keeps the SenseVoice model bundled in the app.
+
+| Language | Model | License | Source | sherpa-onnx package |
+|---|---|---|---|---|
+| Japanese | ReazonSpeech k2 v2 (Zipformer transducer) | Apache-2.0 | [reazon-research/reazonspeech-k2-v2](https://huggingface.co/reazon-research/reazonspeech-k2-v2) | `sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01` |
+| English, Chinese | X-ASR zh-en with punctuation (Zipformer transducer) | Apache-2.0 | [Gilgamesh-J/X-ASR](https://github.com/Gilgamesh-J/X-ASR) | `sherpa-onnx-x-asr-zipformer-transducer-zh-en-punct-int8-2026-06-03` |
+| Russian | GigaAM v3 with punctuation (NeMo transducer) | MIT | [salute-developers/GigaAM](https://github.com/salute-developers/GigaAM) | `sherpa-onnx-nemo-transducer-punct-giga-am-v3-russian-2025-12-16` |
+
+Each model has four files: `encoder`, `decoder`, `joiner` and `tokens.txt`. `asr-manifest.json` lists every asset with its size and SHA-256. License texts: [Apache-2.0](LICENSE/Apache-2.0.txt), [GigaAM (MIT)](LICENSE/GigaAM-MIT.txt).

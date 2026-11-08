@@ -1,0 +1,122 @@
+{
+ "schema": 1,
+ "release": "asr-v1",
+ "base_url": "https://github.com/taiyoukeee/vrcpt-plamo-models/releases/download/asr-v1/",
+ "models": [
+  {
+   "id": "ja_reazonspeech",
+   "languages": [
+    "ja"
+   ],
+   "model_type": "zipformer_transducer",
+   "decoding_method": "modified_beam_search",
+   "license": "Apache-2.0",
+   "source": "https://huggingface.co/reazon-research/reazonspeech-k2-v2",
+   "converted_by": "k2-fsa/sherpa-onnx release asr-models: sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01.tar.bz2",
+   "files": [
+    {
+     "role": "encoder",
+     "asset": "asr-ja-reazonspeech-2024-08-01.encoder.int8.onnx",
+     "bytes": 154670139,
+     "sha256": "2c7bd08a8a99f9ddd0d9e458456577b1f6279214e51426f114f9eced44c54e1d"
+    },
+    {
+     "role": "decoder",
+     "asset": "asr-ja-reazonspeech-2024-08-01.decoder.onnx",
+     "bytes": 11767836,
+     "sha256": "58b18211ae06265466bfa17172dab574df94f76c8bcb61a3640c28ba860e4124"
+    },
+    {
+     "role": "joiner",
+     "asset": "asr-ja-reazonspeech-2024-08-01.joiner.int8.onnx",
+     "bytes": 2696970,
+     "sha256": "49cc7ea1d3d35a40a27442db5e89996da64bf0e683a903dce76e99e57a12e4de"
+    },
+    {
+     "role": "tokens",
+     "asset": "asr-ja-reazonspeech-2024-08-01.tokens.txt",
+     "bytes": 45754,
+     "sha256": "2c3ac659818a48a0c04010e0593bbc4d7c8a24a054340b01131499c05fd52def"
+    }
+   ],
+   "total_bytes": 169180699
+  },
+  {
+   "id": "zh_en_x_asr",
+   "languages": [
+    "en",
+    "zh"
+   ],
+   "model_type": "zipformer_transducer",
+   "decoding_method": "modified_beam_search",
+   "license": "Apache-2.0",
+   "source": "https://github.com/Gilgamesh-J/X-ASR",
+   "converted_by": "k2-fsa/sherpa-onnx release asr-models: sherpa-onnx-x-asr-zipformer-transducer-zh-en-punct-int8-2026-06-03.tar.bz2",
+   "files": [
+    {
+     "role": "encoder",
+     "asset": "asr-zh-en-x-asr-punct-2026-06-03.encoder.int8.onnx",
+     "bytes": 161015713,
+     "sha256": "7f6aa62056efd8af9da13e0faa81cd3f284d2fb2e3b63de56fd2dfd3450910dc"
+    },
+    {
+     "role": "decoder",
+     "asset": "asr-zh-en-x-asr-punct-2026-06-03.decoder.onnx",
+     "bytes": 11309084,
+     "sha256": "72f47405d3c1033bebccbef82f90071e7b4ba3e71b9c986f2b74244b25723aed"
+    },
+    {
+     "role": "joiner",
+     "asset": "asr-zh-en-x-asr-punct-2026-06-03.joiner.int8.onnx",
+     "bytes": 2581422,
+     "sha256": "aedb7fa697b2ab43f20499826fff7c997eea7d67db77be97769aeeeb726e63b3"
+    },
+    {
+     "role": "tokens",
+     "asset": "asr-zh-en-x-asr-punct-2026-06-03.tokens.txt",
+     "bytes": 58806,
+     "sha256": "b818a60878b9aae978cbb8ad594acbd403d76d1af2e31ef4197c84e2dbdba27c"
+    }
+   ],
+   "total_bytes": 174965025
+  },
+  {
+   "id": "ru_gigaam",
+   "languages": [
+    "ru"
+   ],
+   "model_type": "nemo_transducer",
+   "decoding_method": "greedy_search",
+   "license": "MIT",
+   "source": "https://github.com/salute-developers/GigaAM",
+   "converted_by": "k2-fsa/sherpa-onnx release asr-models: sherpa-onnx-nemo-transducer-punct-giga-am-v3-russian-2025-12-16.tar.bz2",
+   "files": [
+    {
+     "role": "encoder",
+     "asset": "asr-ru-gigaam-v3-punct-2025-12-16.encoder.int8.onnx",
+     "bytes": 224570820,
+     "sha256": "369f35a71bf288d3b8e0391fabd8dba5f2314088d440bca474056b7b4b6e66bf"
+    },
+    {
+     "role": "decoder",
+     "asset": "asr-ru-gigaam-v3-punct-2025-12-16.decoder.onnx",
+     "bytes": 4600132,
+     "sha256": "38fc7475443ea2a26f63211ca350f73ac50fff824ab7a3876ee2bd610c53bbc4"
+    },
+    {
+     "role": "joiner",
+     "asset": "asr-ru-gigaam-v3-punct-2025-12-16.joiner.onnx",
+     "bytes": 2712896,
+     "sha256": "602ff7017a93311aad34df1437c8d7f49911353c13d6eae7a6ee7b041339465c"
+    },
+    {
+     "role": "tokens",
+     "asset": "asr-ru-gigaam-v3-punct-2025-12-16.tokens.txt",
+     "bytes": 13354,
+     "sha256": "39abae20e692998290c574e606f11a9edef2902a1995463fcff63d1490cf22b7"
+    }
+   ],
+   "total_bytes": 231897202
+  }
+ ]
+}
